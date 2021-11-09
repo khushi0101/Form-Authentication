@@ -1,0 +1,107 @@
+body {
+	background-image: url("bg2.png"), url("paper.gif");
+	background-size: auto;
+	background-color: #cccccc;
+  }
+#title_id
+{
+	transform: translate(0%,100%);
+	text-align: center;
+	color: dodgerblue;
+}
+
+#form_id
+{
+	transform: translate(0%,40%);
+}
+
+#form_title
+{
+	text-align: center;
+	color: dodgerblue;
+}
+
+*{box-sizing: border-box;}
+	/* Style the input container */
+	.input-container 
+	{
+		display: flex;
+		width: 50%;
+		margin-left: 50%;
+		transform: translate(-50%, 0%);
+		margin-bottom: 15px;
+	}
+  
+	/* Style the form icons */
+	.icon 
+	{
+		padding: 10px;
+		background: dodgerblue;
+		color: white;
+		min-width: 50px;
+		text-align: center;
+	}
+  
+	/* Style the input fields */
+	.input-field
+	{
+		width: 100%;
+		padding: 10px;
+	}
+  
+	.input-field:focus
+	{
+		border: 1px solid red;
+		outline: none
+	}
+
+	/* Set a style for the submit button */
+	.btn
+	{
+		margin-left: 50%;
+		transform: translate(-50%, 0%);
+		background-color: dodgerblue;
+		color: white;
+		padding: 10px 15px;
+		cursor: pointer;
+		width: 20%;
+		border-radius: 10px;
+                
+	}
+
+	.btn:hover
+	{
+		background-color:rgb(4, 125, 245);
+	}
+
+
+.btn-group
+{
+	margin-left: 50%;
+	transform: translate(-50%, 250%);
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.btn-group button:hover
+{
+	background-color: rgb(4, 125, 245);
+	outline: none;
+}
+
+.btns
+{
+	padding: 10px;
+	width: 150px;
+	background-color: dodgerblue;
+	outline: none;
+	color: aliceblue;
+	border-radius: 10px;
+}
+h2{
+    padding-top:20px;
+    text-align: center;
+    color:dodgerblue;
+}
